@@ -1,0 +1,13 @@
+import './js/mobile-menu';
+import './js/input-actions';
+import './js/theme-switch';
+import './js/calendar';
+import './js/fetchQueries/byCategories';
+import './js/fetchQueries/byPopular';
+import './js/fetchQueries/byQuery';
+import './js/weather';
+import './js/accordion/accordion';
+import './js/addToRead/addToRead';
+import './js/navLogic/navLogic';
+import './js/addToFavorites/addToFavorites';
+import './js/pagination/pagination';
