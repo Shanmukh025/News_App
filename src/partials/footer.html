@@ -1,5 +1,5 @@
 <style>
-    footer{
+    footer {
         background-color: #333;
         color: white;
         text-align: center;
@@ -7,8 +7,48 @@
         bottom: 0;
         width: 100%;
     }
-    </style>
-<footer class="footer">
-    CourseVita Team 88, KL University.
-</footer>
 
+    .footer-container {
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo {
+        text-align: left;
+    }
+
+    .footer-categories {
+        text-align: center;
+    }
+
+    .footer-contact {
+        margin-right: 50px;
+        text-align: right;
+    }
+</style>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="https://media.licdn.com/dms/image/v2/D560BAQFq46lBLRvpgg/company-logo_200_200/company-logo_200_200/0/1726061233153/coursevita_logo?e=2147483647&v=beta&t=psTg2rblwwI7EC4lJeBrm2viJRzjdb3ROKYqwfn306U" height=50 width=50 alt="Company Logo">
+            <h1>News Widget</h1>
+        </div>
+        <div class="footer-categories">
+            <h2>Categories</h2>
+            <ul>
+                <li>CyberSecurity</li>
+                <li>Web Development</li>
+                <li>Data Science</li>
+                <li>Gaming</li>
+                <li>I.O.T</li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h2>Contact</h2>
+            <p>Email: name@gmail.com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+    </div>
+</footer>

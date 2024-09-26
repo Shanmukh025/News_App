@@ -51,11 +51,11 @@ function markupTablet() {
 function markupDesktop() {
   refs.categoriesBtnList.insertAdjacentHTML(
     'afterbegin',
-    markupCategoriesInBtn(arrCategories, 1, 6)
+    markupCategoriesInBtn(arrCategories, 1, 10)
   );
   refs.categoriesList.insertAdjacentHTML(
     'afterbegin',
-    markupCategoriesInList(arrCategories, 6)
+    markupCategoriesInList(arrCategories, 9)
   );
   refs.categoriesBtnMenuText.textContent = 'Categories';
 }
